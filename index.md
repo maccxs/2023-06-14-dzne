@@ -220,12 +220,6 @@ Display the contact email address set in the configuration file.
   for more information.
 </p>
 
-<p id="roles">
-  <strong>Roles:</strong>
-  To learn more about the roles at the workshop (who will be doing what),
-  refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
-</p>
-
 {% comment %}
 WHO CAN ATTEND?
 
@@ -386,8 +380,9 @@ please preview your site before committing, and make sure to run
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to software as described below.
-  In addition, you will need an up-to-date web browser.
+  you will need access to a terminal, git, gitlab, R 4.2 and RStudio > 20222.
+  In addition, you will need an up-to-date web browser. 
+  We will set up a time and date, where you can come into the RS-IT-office, and we help you with any installations if necessary.
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
@@ -414,14 +409,3 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
-{% if site.carpentry == "swc" %}
-{% include swc/setup.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/setup.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/setup.html %}
-{% elsif site.carpentry == "incubator" %}
-Please check the "Setup" page of
-[the lesson site]({{ site.incubator_lesson_site }}) for instructions to follow
-to obtain the software and data you will need to follow the lesson.
-{% endif %}
