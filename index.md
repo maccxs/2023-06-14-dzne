@@ -380,7 +380,7 @@ please preview your site before committing, and make sure to run
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to a terminal, git, gitlab, R 4.2 and RStudio > 2022.
+  you will need access to a terminal, git, gitlab, R > 4.2 and RStudio > 2022.
   In addition, you will need an up-to-date web browser. 
   We will set up a time and date, where you can come into the RS-IT-office, and we help you with any installations if necessary.
 </p>
