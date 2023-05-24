@@ -380,14 +380,9 @@ please preview your site before committing, and make sure to run
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to a terminal, git, gitlab, R 4.2 and RStudio > 20222.
+  you will need access to a terminal, git, gitlab, R 4.2 and RStudio > 2022.
   In addition, you will need an up-to-date web browser. 
   We will set up a time and date, where you can come into the RS-IT-office, and we help you with any installations if necessary.
-</p>
-<p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
 {% comment %}
